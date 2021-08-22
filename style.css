@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* img{
+    min-width: 100%;
+} */
+.text-center{
+    text-align: center;
+}
+.fixt-width{
+    width: 1070px;
+    margin: auto;
+}
+
+/*header*/
+
+.header{
+    background: #22c3a3;
+}
+.manu{
+}
+.header-laft{
+    width: 30%;
+    float: left;
+    line-height: 70px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+}
+.header-right{
+    width: 70%;
+    float: right;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 70px;
+}
+.header-right ul li a:hover{}
+
+
+/*banar*/
+
+.banar{
+    background-image: url(./Image/header-bg01.jpg); 
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+
+}
+.heading {
+    text-align: center;
+}
+.heading h1 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.heading p {
+    color: #fff;
+    margin: 20px 0;
+}
+.heading button {
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+/*service*/
+.service{}
+.heding2 {
+    text-align: center;
+    padding: 85px 0;
+}
+.heding2 h2 {
+    margin-bottom: 20px;
+}
+.heding2 p{}
+
+/*serviceall*/
+
+.serviceall{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.service{}
+.service i{
+    font-size: 30px;
+    color: #0dbf9b;
+    margin-bottom: 20px;
+}
+.service h3{
+    margin-bottom: 15px;
+}
+.service p{}
+.service1{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    padding: 0 25px;
+}
+.service2{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    padding: 0 25px;
+}
+.service3{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    padding: 0 25px;
+}
+.service4{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    padding: 0 25px;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background: #0dbf9b;
+}
+
+
+/*about*/
+
+
+.about{
+    margin: 100px 0;
+}
+.heada{
+    text-align: center;
+}
+.heada h1{
+    margin-bottom: 20px;
+}
+.heada p{
+    margin-bottom: 70px;
+}
+.clear{
+    
+}
+.servicemanu{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.imge{
+}
+.servicemanu img{
+    width: 440px;
+}
+.servicetext{
+    width: 50%;
+    float: left;
+}
+.text1{margin: 10px 0;}
+.text1 h3{} 
+.text1 p{} 
+
+
+/*contect*/
+
+
+.contect{
+    text-align: center;
+    background: #f6f6f6;
+    padding-bottom: 50px;
+}
+.countectus{}
+.countectus h1{
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.countectus p{
+    padding-bottom: 50px;
+}
+.contect1{
+    float: left;
+    width: 33%;
+}
+.contect1 i{
+    color: #0dbf9b;
+    padding-bottom: 15px;
+}
+.contect1 p{
+    padding-bottom: 5px;
+}
+
+
+/*footer*/
+
+.footer{
+    background: #0dbf9b;
+    text-align: center;
+}
+.icone1{
+    display: inline-block;
+}
+.icone1 i{
+    color: #fff;
+    padding: 25px 15px;
+    font-size: 25px;
+}
+
+.footer2{
+    background: #222222;
+    text-align: center;
+    padding: 25px 0;
+}
+.footer2 span{
+    color: #515151;
+    font-size: 20px;
+}
